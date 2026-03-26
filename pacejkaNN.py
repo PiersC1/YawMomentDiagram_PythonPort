@@ -120,7 +120,7 @@ class PacejkaNN_splitHead(nn.Module):
         fy = (fy * self.NORM_PARAMS["FY"][1]) + self.NORM_PARAMS["FY"][0]
         mz = (mz * self.NORM_PARAMS["MZ"][1]) + self.NORM_PARAMS["MZ"][0]
 
-        return fy, mz
+        return 0.0, fy
 
 
 
